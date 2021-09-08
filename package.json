@@ -1,0 +1,16 @@
+{
+  "name": "plist-cli",
+  "version": "1.0.0",
+  "description": "Simple CLI wrapper for the amazing plist module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "cli.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "plist": "^3.0.4"
+  }
+}
