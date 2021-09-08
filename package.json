@@ -1,5 +1,5 @@
 {
-  "name": "plist-cli",
+  "name": "node-plist-cli",
   "version": "1.0.0",
   "description": "Simple CLI wrapper for the amazing plist module",
   "main": "index.js",
