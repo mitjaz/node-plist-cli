@@ -7,7 +7,9 @@ try {
     const [path, property, value] = args;
     const result = plistTool({ path, property, value});    
     const resultString = typeof result === 'object' ? JSON.stringify(result, null, 2) : result;
-    console.log(resultString)
+    if (resultString) {
+        console.log(resultString)
+    }
 } catch (error) {
     console.error(error.message);
 }
